@@ -1,0 +1,48 @@
+.mainBanner{
+  position: fixed;
+  bottom: 65px;
+  width: 100%;
+  left: 0px;
+  right: 0px;
+  height: 100vh;
+}
+h1{
+  font-family: 'Yellowtail', cursive;
+  margin-left: 2%;
+}
+.navBar{
+  margin-left: 30px;
+  word-spacing: 40px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 16px;
+}
+.fixedBottom{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 65px;
+  background: black;
+  color: white;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.aboutSubSection{
+  max-width: 60%;
+  margin: 0 auto;
+  margin-bottom: 65px;
+}
+.aboutImg{
+  max-width: 80%;
+  display: block;
+  margin: auto;
+  margin-bottom: 6%;
+  margin-top: 4%;
+}
