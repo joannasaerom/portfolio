@@ -4,17 +4,25 @@
   width: 100%;
   left: 0px;
   right: 0px;
-  height: 100vh;
+  /*height: 100vh;*/
+}
+.indexPage, .projectPage{
+  margin-bottom: 100px;
+}
+.indexPage{
+  background-color: #e3dedb;
 }
 h1{
-  font-family: 'Yellowtail', cursive;
+  font-family: 'Rubik Mono One', sans-serif;
   margin-left: 2%;
 }
 .navBar{
   margin-left: 30px;
   word-spacing: 40px;
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: bold;
+  vertical-align: middle;
 }
 .fixedBottom{
   position: fixed;
@@ -38,6 +46,7 @@ a:hover{
   max-width: 60%;
   margin: 0 auto;
   margin-bottom: 65px;
+  margin-top: 10%;
 }
 .aboutImg{
   max-width: 80%;
@@ -45,4 +54,28 @@ a:hover{
   margin: auto;
   margin-bottom: 6%;
   margin-top: 4%;
+}
+.projPage{
+  margin-top: 20%;
+}
+.projPage h2, .projPage h3{
+  text-align: center;
+}
+.projPage h2{
+  font-family: 'Catamaran', sans-serif;
+}
+.projPage h3{
+  font-family: 'Biryani', sans-serif;
+  text-transform: uppercase;
+}
+i{
+
+  position: absolute;
+  left: 50%;
+  margin-top: 50px;
+  transform: translate(-50%);
+}
+.showDetails{
+  text-align: center;
+  font-weight: bolder;
 }
