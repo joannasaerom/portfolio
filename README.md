@@ -14,7 +14,7 @@ _Practicing design skills for a potential portfolio._
 2. Click Clone or download and choose either the Open in Desktop option or Download Zip option
 **OR**
 1. Open Terminal
-2. Command $ git clone https://github.com/jsaerom/portfolio
+2. Command `$ git clone https://github.com/jsaerom/portfolio`
 3. Open index.html
 
 ## Technologies Used
